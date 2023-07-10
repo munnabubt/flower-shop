@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first-bannar-flower{
+    background-color: rgba(229, 84, 115, 0.10);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px auto;
+
+}
+.first-flower-left{
+    margin-right: 20px;
+    padding: 80px;
+
+}
+.first-flower-right{
+    padding-top: 100px;
+    padding-right: 80px;
+   
+   
+  
+    
+}
+
+.flower-title{
+    color:  #181818;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+   padding-bottom: 15px;
+}
+.flower-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+.btn-shop{
+   color: #FFF;
+   background-color:rgb(243, 18, 18);
+   font-family: Lato;
+   font-size: 20px;
+   font-style: normal;
+   padding: 5px;
+   padding-bottom: 8px;
+   border-radius: 5px;
+}
