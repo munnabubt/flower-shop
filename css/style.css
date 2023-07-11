@@ -59,6 +59,7 @@
 }
 .featured-title{
     color: #272727;
+    font-size: 30px;
   
 }
 .featured-description{
@@ -185,7 +186,8 @@
 }
 .instagram-title{
     color: #272727;
-    font-size: 20px;
+    font-size: 30px;
+   padding-top: 20px;
 }
 
 .instagram-description{
@@ -194,7 +196,7 @@
 }
 .instagram-flower-add{
     display: flex;
-    width: 800px;
+    width: 980px;
     margin: 0 auto;
     margin-top: 30px;
     padding: 20px;
@@ -211,13 +213,18 @@
 .deals-info{
     background-image: url('../Flower\ Asset/Rectangle 9.png');
     background-repeat: no-repeat;
-    height: 400px;
-    /* background-position: center; */
-    background-size: 850px;
-    width: 1050px;
-    margin: 0px auto;
+    display: flex;
     text-align: center;
+    justify-content: center;
+    height: 400px;
+     background-position: center; 
+    background-size: 900px;
+    width: 90%;
+    /* margin: 0px auto; */
+    
     margin-right: 37px;
+    padding: 30px;
+    /* margin-left: 350px; */
 
 }
 .center-text{
@@ -228,9 +235,10 @@
 .deals-title{
 color: #272727;
 text-align: center;
-font-size: 20px;
+font-size: 30px;
 font-style: normal;
-margin-top: 5px;
+margin-top: 50px;
+/* margin-left: 210px; */
 }
 .deals-description{
  color: rgba(39, 39, 39, 0.60);
@@ -238,18 +246,19 @@ text-align: center;
 font-size: 16px;
 font-style: normal;
 margin-top: 5px;
+/* margin-left: 200px; */
 }
 .input-div{
     display: flex;
-    text-align: center;
-    margin-left: 380px;
+    text-align: center; 
+    margin-left: 3px;
     margin-top: 12px;
     position: relative;
 }
 input{
     padding: 10px;
     width: 250px;
-    margin-right: 50px;
+    margin-right: 0px;
 }
 .btn-sub{
     color: #FFF;
@@ -259,7 +268,7 @@ input{
     padding: 8px;
     border-radius: 5px;
     position: absolute;
-    margin-left: 275px; 
+     margin-left: 275px;  
 }
 
 /* order */
