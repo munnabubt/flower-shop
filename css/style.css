@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+/* first bannar part  */
 .first-bannar-flower{
     background-color: rgba(229, 84, 115, 0.10);
     height: 600px;
@@ -20,9 +21,6 @@
 .first-flower-right{
     padding-top: 100px;
     padding-right: 80px;
-   
-   
-  
     
 }
 
@@ -42,7 +40,7 @@
 }
 .btn-shop{
    color: #FFF;
-   background-color:rgb(243, 18, 18);
+   background-color:#E55473;
    font-family: Lato;
    font-size: 20px;
    font-style: normal;
@@ -50,6 +48,8 @@
    padding-bottom: 8px;
    border-radius: 5px;
 }
+/* bannar closed */
+
 
 .flower-info{
     text-align: center;
@@ -68,9 +68,6 @@
     height: 500px;
 }
 
-
-
-
 .flower-tree-list{
     width: 650px;
     display: flex;
@@ -88,12 +85,14 @@
    margin-right: 15px;
    justify-content: center;
    padding: 20px;
+   height: 230px;
 
 }
 .second-flower-tree{
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     margin-right: 15px;
+    height: 230px;
     padding: 20px;
 
 }
@@ -101,6 +100,7 @@
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     margin-right: 15px;
+    height: 230px;
     padding: 20px;
 
 }
@@ -110,4 +110,59 @@
     margin-top: 10px;
 
 
+}
+.pink-flower{
+    padding-top: 50px; 
+}
+
+.discount-container{
+    background: rgba(229, 84, 115, 0.05);
+    height: 400px;
+    text-align: center;
+    align-items: center;
+   justify-content: space-around;
+}
+.discount-off{
+    display: flex;
+    height: 400px;
+    width: 800px;
+    text-align: center;
+    align-items: center;
+   justify-content: space-around;
+   margin: 0 auto;
+  
+
+}
+.discount-title{
+    color: #272727;
+   margin-bottom: 10px;
+   font-size: 33px;
+}
+.off{
+    color: #E55473;
+}
+.discount-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    margin-bottom: 10px;
+    
+}
+
+.discount-btn{
+     color: #FFF;
+     font-size: 17px;
+     font-style: normal;
+     background: #E55473;
+     padding: 5px;
+     border-radius: 5px;
+}
+.discount-info{
+    text-align: center;
+
+}
+.discout-flower-pic{
+    height: 300px;
+   
 }
