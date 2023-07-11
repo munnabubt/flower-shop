@@ -261,6 +261,73 @@ input{
     margin-left: 275px;
 }
 
+/* order */
+.order-container{
+    height: 450px;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.05);
+}
+.order-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rose-flower{
+    width: 600px;
+    height: 400px;
+    margin-bottom: 99px;
+
+}
+
+.order-input-flex{
+    display: flex;
+    gap: 5px;
+}
+
+.order-right-side{
+    margin-left: 40px;
+    margin-bottom: 140px;
+}
+
+.order-title{
+   font-size: 25px;
+   margin-top: 10px;
+}
+
+.order-description{
+color: #272727;
+font-size: 15px;
+font-style: normal;
+margin-top: 15px;
+
+}
+
+.order-input-flex{
+    margin-top: 20px;
+}
+
+.order-input{
+    margin-top: 20px;
+
+}
+
+.description-order-input{
+    margin-top: 20px;
+    padding: 25px;
+}
+.btn-order{
+    color: #FFF;
+     font-size: 17px;
+     font-style: normal;
+     background: #E55473;
+     padding: 5px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+
+}
+
+
 
 /* footer */
 
