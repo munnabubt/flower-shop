@@ -204,6 +204,7 @@
 .flower-img{
     height: 250px;
     margin-right: 8px;
+    
 
 }
 
@@ -217,7 +218,6 @@
     margin: 0px auto;
     text-align: center;
     margin-right: 37px;
-    
 
 }
 .center-text{
@@ -259,7 +259,7 @@ input{
     padding: 8px;
     border-radius: 5px;
     position: absolute;
-    margin-left: 275px;
+    margin-left: 275px; 
 }
 
 /* order */
@@ -328,14 +328,14 @@ margin-top: 15px;
 
 }
 
-.display-blog{
+/* .display-blog{
     display: block;
     width: 90%;
-}
+} */
 
 textarea{
     display: block;
-    width: 100%;
+    width: 50%;
 
 }
 
@@ -370,7 +370,6 @@ font-style: normal;
 .footer-description{
 color: rgb(214, 196, 196);
 text-align: center;
-font-family: Lato;
 font-size: 18px;
 font-style: normal;
 margin-top: 20px;
