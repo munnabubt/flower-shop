@@ -51,6 +51,8 @@
 /* bannar closed */
 
 
+
+/* Featured Flowers start */
 .flower-info{
     text-align: center;
     padding-top: 60px;
@@ -115,6 +117,9 @@
     padding-top: 50px; 
 }
 
+/* Featured Flowers end */
+
+ /* flower discount style */
 .discount-container{
     background: rgba(229, 84, 115, 0.05);
     height: 400px;
@@ -167,6 +172,8 @@
    
 }
 
+/* flower discount style end */
+
 /* instagram */
 
 .instagram-div{
@@ -200,12 +207,6 @@
 
 }
 
-/* deals information*/
-/* .deals-container{
-    height: 600px;
-    background-color: aqua;
-
-} */
 .deals-info{
     background-image: url('../Flower\ Asset/Rectangle 9.png');
     background-repeat: no-repeat;
@@ -276,7 +277,7 @@ input{
 .rose-flower{
     width: 600px;
     height: 400px;
-    margin-bottom: 99px;
+    margin-bottom: 128px;
 
 }
 
@@ -314,7 +315,7 @@ margin-top: 15px;
 
 .description-order-input{
     margin-top: 20px;
-    padding: 25px;
+    padding: 20px;
 }
 .btn-order{
     color: #FFF;
@@ -323,13 +324,25 @@ margin-top: 15px;
      background: #E55473;
      padding: 5px;
      border-radius: 5px;
-     margin-bottom: 10px;
+     margin-top: 10px;
 
 }
 
+.display-blog{
+    display: block;
+    width: 90%;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+
+}
+
+/* flower order style end */
 
 
-/* footer */
+/* footer style start*/
 
 .footer{
     height: 300px;
@@ -369,3 +382,4 @@ font-size: 12px;
 font-style: normal;
 margin-top: 10px;
 }
+/* footer style close */
